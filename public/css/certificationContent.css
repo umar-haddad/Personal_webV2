@@ -1,0 +1,59 @@
+section.sertif {
+  position: relative;
+  padding-bottom: 100px;
+  background-image: url(../img/bg-home.jpg);
+  background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
+
+section.sertif .sertif-title h1 {
+  color: blanchedalmond;
+}
+
+section.sertif .sertif-page {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin-inline: 50px; */
+  gap: 62px;
+}
+
+section.sertif .sertif-page .sertif-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #26a5b0;
+  box-shadow: 6px 6px 6px 8px #3a8080;
+  width: 50%;
+  height: auto;
+  padding: 6px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #306767, #41565d, #338b8b);
+}
+
+section.sertif .sertif-page .sertif-card:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+section.sertif .sertif-page .sertif-card img {
+  border-radius: 10px 10px 0 0;
+}
+
+section.sertif .sertif-page .sertif-card .sertif-description {
+  padding: 12px;
+  color: lightcyan;
+}
+
+section.sertif .sertif-page .sertif-card .sertif-description h3 {
+  margin: 12px 0;
+}
+
+section.sertif .sertif-page .sertif-card .sertif-description span {
+  font-size: 18px;
+  opacity: 50%;
+}
+
+section.sertif .sertif-page .sertif-card .sertif-description p {
+  margin-top: 12px;
+}

@@ -1,0 +1,25 @@
+/* navbar.css */
+.navbar {
+  background-image: url(../../../public/img/bg-home.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Mengatur warna teks menjadi putih */
+.navbar h1,
+.nav-link {
+  color: white !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar-toggler {
+    background-image: linear-gradient(
+      to right,
+      #29a9a9,
+      #2a777f,
+      #3b7578
+    ) !important;
+    box-shadow: 6px 6px 4px 2px #0374de;
+  }
+}
