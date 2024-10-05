@@ -16,7 +16,7 @@ function HeroSection() {
   return (
     <section
       className="hero pt-5 mt-5 justify-content-center align-items-center"
-      data-aos="fade-up"
+{/*       data-aos="fade-up" */}
     >
       <div className="hero-title">
         <img src={tenorGif} alt="Tenor GIF" />
