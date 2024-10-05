@@ -19,7 +19,7 @@ function HeroSection() {
       data-aos="fade-up"
     >
       <div className="hero-title">
-{/*         <img src={tenorGif} alt="Tenor GIF" /> */}
+        <img src={tenorGif} alt="Tenor GIF" />
         <div className="hero-teks">
           <h1>Sayyid Umar</h1>
           <p>
