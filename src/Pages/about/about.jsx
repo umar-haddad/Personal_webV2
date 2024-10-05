@@ -31,7 +31,7 @@ function About() {
   }, []);
 
   return (
-    <div className="bg-img" data-aos="fade-up">
+    <div className="bg-img aos-init aos-animate" data-aos="fade-up">
       <div className="content d-flex justify-content-center">
         <div className="col-lg-6 p-5 d-flex justify-content-center ">
           <img src={ProfileImage} alt="Profil" className="img img-rounded" />
