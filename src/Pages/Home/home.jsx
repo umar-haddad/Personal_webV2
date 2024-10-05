@@ -15,7 +15,7 @@ import "./home.css";
 function HeroSection() {
   return (
     <section
-      className="hero pt-5 mt-5 justify-content-center align-items-center"
+      className="hero pt-5 mt-5 justify-content-center align-items-center aos-init aos-animate"
       data-aos="fade-up"
     >
       <div className="hero-title">
