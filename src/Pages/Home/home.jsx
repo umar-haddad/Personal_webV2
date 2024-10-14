@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faArrowDown, faDownload } from "@fortawesome/free-solid-svg-icons";
 import tenorGif from "../../../public/img/tenor.gif";
-import cvPdf from "../../assets/cv/CV_FULL_STACK_DEVELOPER.pdf";
+import cvPdf from "../../assets/cv/terbaru.pdf";
 import "./home.css";
 
 function HeroSection() {
